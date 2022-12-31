@@ -1,26 +1,27 @@
 # Project information
-site_name: material-for-mkdocs-updated
+site_name: WAFER ML-OPS docs
 # defeine TOC or order of website-
 nav:
   - Home: index.md
-  - Page-2: page2.md
+  - Project: project.md
+  - Pipeline Stage 1 (Initial setup): stage1_init_setup.md
 
 site_author: Harshalkumar Gulabrao Kumre
 site_description: >-
   DESCRIPTION
 
 # Repository
-repo_name: HARSHALKUMRE/material-for-mkdocs-updated
-repo_url: https://github.com/HARSHALKUMRE/material-for-mkdocs-updated
+repo_name: HARSHALKUMRE/mlops_main
+repo_url: https://github.com/HARSHALKUMRE/mlops_main
+
+extra_css:
+  - stylesheets/extra.css
 
 # Configuration
 theme:
   name: material
   features:
-    - navigation.tabs
-    - navigation.sections
-    - toc.integrate
-    - navigation.top
+    - tab
   language: en
   palette:
     - scheme: default
