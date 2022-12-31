@@ -5,6 +5,7 @@ nav:
   - Home: index.md
   - Project: project.md
   - Pipeline Stage 1 (Initial setup): stage1_init_setup.md
+  - Reference: reference.md
 
 site_author: Harshalkumar Gulabrao Kumre
 site_description: >-
@@ -24,20 +25,11 @@ theme:
     - tab
   language: en
   palette:
-    - scheme: default
-      toggle:
-        icon: material/toggle-switch-off-outline 
-        name: Switch to dark mode
-      primary: teal
-      accent: purple 
-    - scheme: slate 
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode    
-      primary: teal
-      accent: lime    
-  # logo: PyTorch_logo_icon.svg
-  
+    scheme: slate
+    primary: teal
+    accent: teal
+
+# extra features  
 extra:
   social:
     - icon: fontawesome/brands/github-alt
@@ -49,9 +41,7 @@ extra:
       
 
 extra_javascript:
-  - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js #?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
 
 markdown_extensions:
   - pymdownx.highlight:
