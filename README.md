@@ -1,4 +1,5 @@
-# docsTemplate
-its just a template Repository for documentation
+[![ci](https://github.com/HARSHALKUMRE/wafer_mlops_docs/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/HARSHALKUMRE/wafer_mlops_docs/actions/workflows/ci.yml)
 
-Click on `Use this template` button on the top right to use this repository as a boiler plate for your next documentation
+## Visit docs at [wafer mlops docs](https://HARSHALKUMRE.github.io/wafer_mlops_docs/)
+
+## Main project repository [mlops main]()
